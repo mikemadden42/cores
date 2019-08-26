@@ -1,0 +1,2 @@
+# cores
+List CPU cores
