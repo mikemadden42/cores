@@ -1,10 +1,11 @@
 [package]
 name = "cores"
 version = "0.1.0"
-authors = ["Michael Madden <mikemadden42@icloud.com>"]
+authors = [ "Michael Madden <mikemadden42@icloud.com>" ]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ansi_term = "0.12.1"
 num_cpus = "1.12.0"
