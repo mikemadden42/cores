@@ -7,7 +7,7 @@ fn main() {
     let cores = get();
     let cpus = get_physical();
     #[cfg(target_os = "windows")]
-    let enabled = ansi_term::enable_ansi_support();
+    let _enabled = ansi_term::enable_ansi_support();
     println!(
         "{} {}",
         Blue.paint("logical cores:"),
