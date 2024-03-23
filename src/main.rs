@@ -1,5 +1,4 @@
-use num_cpus::get;
-use num_cpus::get_physical;
+use num_cpus::{get, get_physical};
 
 fn main() {
     let cores = get();
